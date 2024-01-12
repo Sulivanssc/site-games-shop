@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 1280px;
+    margin: 0 auto;
+}
+
+header{
+    background-color: rgb(26, 35, 121);
+    padding: 16px;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .container li {
+    display: inline;
+    margin-right: 16px;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+h1{
+    font-size: 32px;
+}
+
+header .container li a,header .container h1, section h3{
+    text-decoration: none;
+    color: rgb(221, 221, 221);
+    font-family: 'Bungee', sans-serif;
+    font-weight: normal;
+}
+
+.logoV li{
+    display: inline;
+}
+
+.logoV li img{
+    height: 24px;
+}
+
+section .container{
+    display: flex;
+}
+
+.man{
+    display: flex;
+}
+
+.img-fachada{
+    margin: 16px 16px 8px;
+}
+
+.any{
+    margin: 16px 8px;
+}
+
+section h2{
+    margin-bottom: 16px;
+    font-size:24px; 
+    text-decoration: none;  
+    color: rgb(26, 35, 121);
+    font-family: 'Bungee', sans-serif;
+    font-weight:normal ;
+}
+
+section .any p{
+    margin-bottom: 8    px;
+    color: rgb(26, 35, 121);
+    font-size: 17px;
+}
+
+section .any li{
+    margin-right: 8px;
+}
+
+.nos-acompanhe img{
+    height: 24px;
+}
+
+.nos-acompanhe li{
+    display: inline;
+    margin-right: 8px;
+}
+
+#Ctt .container{
+    display: block;
+}
+
+.Metodos-contatos{
+    display: flex;
+    justify-content: space-between;
+}
+
+form input, form textarea, form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea{
+    resize: none;
+    height: 180px;
+}
+
+section h3{
+    color: rgb(26, 35, 121);
+    margin-bottom: 16px;
+}
+
+form button{
+    background-color: rgb(26, 35, 121);
+    color: white;
+    font-family: 'Bungee', sans-serif;
+    cursor: pointer;
+    border: none;
+}
+
+form button:hover{
+    background-color:rgb(43, 58, 197) ;
+}
+
+body, input, textarea{
+    font-family: 'Roboto', sans-serif;
+}
+
+textarea:focus, input:focus{
+    outline-color: purple;
+}
+
+footer{
+    background-color:rgb(26, 35, 121);
+    color: white;
+    padding: 16px 0px   ;   
+}
